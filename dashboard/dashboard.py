@@ -15,7 +15,7 @@ def create_byseason_df(df):
     
     return byseason_df
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("dashboard/all_data.csv")
 
 sum_registered = all_df.groupby("season").registered.sum().sort_values(ascending=False).reset_index()
 sum_weathersit = all_df.groupby("weather_situation").registered.sum().sort_values(ascending=False).reset_index()
