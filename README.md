@@ -1,7 +1,8 @@
-# Welcome to streamlit
+# Link Streamlit Cloud
+https://submission-hkmwvddf7pkiwu5aprgucl.streamlit.app
+## Screenshot
+![image](https://github.com/rrudiansyah/submission/assets/107456020/a985944e-1593-4c0d-8943-62c9cdcdd87f)
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+# Run steamlit app
+streamlit run dashboard.py
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
-
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
